@@ -1,6 +1,6 @@
 #include <SPI.h>
 #include <MFRC522.h>
-#include <LiquidCrystal_I2C.h>
+#include <LiquidCrystal_I2C.h> Download: https://github.com/johnrickman/LiquidCrystal_I2C
 #include <Wire.h>
 #include <TimeLib.h>
 #include <DS1307RTC.h>
