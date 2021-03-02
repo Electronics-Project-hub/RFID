@@ -20,7 +20,7 @@ MFRC522 rfid(SS_PIN, RST_PIN);
 MFRC522::MIFARE_Key key;
 
 //-------------------------------------------------------------------------------------//
-int max_database_size = 10; // Number of UIDs
+int max_database_size = 4; // Number of UIDs
 const char* database[] = {"NULL", "55:7D:AA:C4", "05:2C:AA:C4", "65:7D:AF:C4", "55:CB:AF:C4"};
 //-------------------------------------------------------------------------------------//
 
